@@ -1,4 +1,11 @@
 RewriteEngine On
+
+# hide files and folders
+RedirectMatch 404 /_protected
+RedirectMatch 404 /\.git
+RedirectMatch 404 /composer\.
+RedirectMatch 404 /.bowerrc
+
 # If a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
