@@ -6,6 +6,32 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'modules' => [
+        'admin' => [
+            'class' => 'mdm\admin\Module',
+            'controllerMap' => [
+                'assignment' => [
+                    'class' => 'mdm\admin\controllers\AssignmentController',
+                    // 'userClassName' => 'mdm\admin\models\User',
+                    'userClassName' => 'dektrium\user\models\User',
+                    'idField' => 'id',
+                    'usernameField' => 'username',
+                ],
+            ],
+            'layout' => 'left-menu', //default from mdmadmin
+
+        ], 
+        'user' => [ 
+            'class' => 'dektrium\user\Module',
+            // 'enableUnconfirmedLogin' => true,
+            'confirmWithin' => 21600,
+            'cost' => 12,
+            'enableConfirmation'=>false,
+            // 'enableGeneratingPassword'=>true,
+            'admins' => ['kireniusdena','adminweb'],
+            'enableRegistration'=>true,
+        ],
+    ],
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -14,12 +40,27 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-        'user' => [
+        /*'user' => [
             'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
-        ],
+        ],*/
         'errorHandler' => [
             'errorAction' => 'site/error',
+        ],
+        'authManager' => [
+            'class' => 'yii\rbac\DbManager', // or use 'yii\rbac\DbManager'
+            // 'class' => 'mdm\admin\components\DbManager',// or use 'yii\rbac\DbManager'
+            'cache' => 'cache',
+        ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'enableStrictParsing' => false,
+            'rules' => [
+                '<controller:\w+>/<id:\d+>' => '<controller>/view',
+                '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+            ],
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
@@ -38,14 +79,14 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
-        /*
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
-        ],
-        */
+        /*'as access' => [
+            'class'=>'mdm\admin\components\AccessControl',
+            'allowActions' => [
+                'site/*',
+                'admin/*',
+                'user/*',
+            ]
+        ],*/
     ],
     'params' => $params,
 ];
