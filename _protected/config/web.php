@@ -27,6 +27,9 @@ $config = [
         'blog' => [
             'class' => 'amilna\blog\Module',
             'userClass' => 'dektrium\user\models\User', // example if use another user class 
+        ],
+        'ols' => [
+            'class' => 'jobsrey\ols\Module',
         ], 
         'user' => [ 
             'class' => 'dektrium\user\Module',
@@ -43,6 +46,15 @@ $config = [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'mn8m9OGwV_PghtOHmUIxyjHv-uwIHHae',
+        ],
+        'cart' => [
+            'class' => 'yii2mod\cart\Cart',
+            // you can change default storage class as following:
+            'storageClass' => [
+                'class' => 'yii2mod\cart\storage\DatabaseStorage',
+                // you can also override some properties 
+                'deleteIfEmpty' => true
+            ]
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
