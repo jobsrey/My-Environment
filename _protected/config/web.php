@@ -20,6 +20,13 @@ $config = [
             ],
             'layout' => 'left-menu', //default from mdmadmin
 
+        ],
+        'gridview' =>  [
+            'class' => 'kartik\grid\Module',
+        ],
+        'blog' => [
+            'class' => 'amilna\blog\Module',
+            'userClass' => 'dektrium\user\models\User', // example if use another user class 
         ], 
         'user' => [ 
             'class' => 'dektrium\user\Module',
