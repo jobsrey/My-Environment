@@ -59,6 +59,9 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'fixture' => [
+            'class' => 'yii\faker\FixtureController',
+        ],
         /*'user' => [
             'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
@@ -76,6 +79,10 @@ $config = [
             'showScriptName' => false,
             'enableStrictParsing' => false,
             'rules' => [
+                '/ols/<controller:.+>/<action:.+>/<id:\d+>' => '/ols/<controller>/<action>',
+                '/ols/<controller:.+>/<action:.+>/<slug:.+>' => '/ols/<controller>/<action>',
+
+
                 '<controller:\w+>/<id:\d+>' => '<controller>/view',
                 '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
@@ -112,12 +119,12 @@ $config = [
 
 if (YII_ENV_DEV) {
     // configuration adjustments for 'dev' environment
-    $config['bootstrap'][] = 'debug';
+    /*$config['bootstrap'][] = 'debug';
     $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
         // uncomment the following to add your IP if you are not connecting from localhost.
         //'allowedIPs' => ['127.0.0.1', '::1'],
-    ];
+    ];*/
 
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [

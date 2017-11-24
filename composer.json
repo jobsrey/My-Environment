@@ -18,18 +18,24 @@
         "yiisoft/yii2": "~2.0.5",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
-        "dektrium/yii2-user": "^0.9.12",
+        "dektrium/yii2-user": "dev-fixbug",
         "mdmsoft/yii2-admin": "~2.0",
         "amilna/yii2-blog": "dev-master",
         "kartik-v/yii2-grid": "@dev",
+        "kartik-v/yii2-checkbox-x": "*",
         "yii2mod/yii2-cart": "*",
         "pistol88/yii2-order": "*",
-        "jobsrey/yii2-ols": "dev-master",
+        "jobsrey/yii2-ols": "*",
         "omnilight/yii2-shopping-cart": "*",
         "kartik-v/yii2-widget-sidenav": "*",
         "kartik-v/yii2-widget-fileinput": "@dev",
         "creocoder/yii2-taggable": "~2.0",
-        "2amigos/yii2-tinymce-widget" : "~1.1"
+        "2amigos/yii2-tinymce-widget" : "~1.1",
+        "amilna/yii2-elevatezoom" : "*",
+        "components/font-awesome": "dev-master",
+        "johnitvn/yii2-ajaxcrud": "dev-fixbug",
+        "steevenz/rajaongkir": "dev-master",
+        "hok00age/rajaongkir": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
@@ -67,6 +73,20 @@
         "asset-installer-paths": {
             "npm-asset-library": "_protected/vendor/npm",
             "bower-asset-library": "_protected/vendor/bower"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        },
+        "ajax_crud": {
+            "type": "vcs",
+            "url": "https://github.com/jobsrey/yii2-ajaxcrud"
+        },
+        "user_dektrium" : {
+            "type": "vcs",
+            "url": "https://github.com/jobsrey/yii2-user"
         }
     }
 }
