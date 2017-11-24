@@ -18,6 +18,9 @@ Thumbs.db
 #runtime
 /runtime
 
+#ignore yii2-ols
+/modules/yii2-ols
+
 # composer itself is not needed
 composer.phar
 

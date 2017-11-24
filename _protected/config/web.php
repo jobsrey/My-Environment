@@ -6,6 +6,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'aliases' => require(__DIR__ . '/aliases.php'), 
     'modules' => [
         'admin' => [
             'class' => 'mdm\admin\Module',
