@@ -25,7 +25,6 @@
         "kartik-v/yii2-checkbox-x": "*",
         "yii2mod/yii2-cart": "*",
         "pistol88/yii2-order": "*",
-        "jobsrey/yii2-ols": "*",
         "omnilight/yii2-shopping-cart": "*",
         "kartik-v/yii2-widget-sidenav": "*",
         "kartik-v/yii2-widget-fileinput": "@dev",
