@@ -1053,3 +1053,413 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1511597934.179
     'REQUEST_TIME' => 1511597934
 ]
+2017-11-25 16:46:37 [::1][-][dmujvse7hgg9dl6lqgehu2c3d5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: ols/checkout/method-payment' in /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('method-payment', Array)
+#1 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('ols/checkout/me...', Array)
+#2 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/mycore/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/mycore/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-11-25 16:46:37 [::1][-][dmujvse7hgg9dl6lqgehu2c3d5][info][application] $_COOKIE = [
+    'mobile' => 'cf95d3b0e5083d724e023735f834d69453281ef7e795aa4ba5bf778c910777eaa:2:{i:0;s:6:\"mobile\";i:1;s:4:\"FULL\";}'
+    '_ga' => 'GA1.1.496260585.1508645879'
+    '_csrf' => '575416e6e9da48af5b2cdd80a5244324dea39e55ef3c0a206d5dc1e44044a964a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Qapw66vruaRd1ZSSUAT1s-czsJpGvOSF\";}'
+    'PHPSESSID' => 'dmujvse7hgg9dl6lqgehu2c3d5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'yz\\shoppingcart\\ShoppingCart' => 'a:1:{i:2;O:29:\"jobsrey\\ols\\models\\ProdukCart\":11:{s:9:\"tagValues\";N;s:7:\"picture\";N;s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:8:{s:2:\"id\";i:2;s:4:\"name\";s:13:\"Ika Wulandari\";s:5:\"price\";s:7:\"5993.00\";s:3:\"qty\";i:1;s:11:\"description\";s:46:\"Jln. Yogyakarta No. 919, Cimahi 50216, SulTeng\";s:6:\"is_new\";i:1;s:11:\"post_status\";i:1;s:4:\"slug\";s:13:\"ika-wulandari\";}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";a:8:{s:2:\"id\";i:2;s:4:\"name\";s:13:\"Ika Wulandari\";s:5:\"price\";s:7:\"5993.00\";s:3:\"qty\";i:1;s:11:\"description\";s:46:\"Jln. Yogyakarta No. 919, Cimahi 50216, SulTeng\";s:6:\"is_new\";i:1;s:11:\"post_status\";i:1;s:4:\"slug\";s:13:\"ika-wulandari\";}s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:3:{s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;O:35:\"creocoder\\taggable\\TaggableBehavior\":6:{s:16:\"tagValuesAsArray\";b:0;s:11:\"tagRelation\";s:4:\"tags\";s:17:\"tagValueAttribute\";s:4:\"name\";s:21:\"tagFrequencyAttribute\";s:9:\"frequency\";s:47:\"\0creocoder\\taggable\\TaggableBehavior\0_tagValues\";N;s:5:\"owner\";r:2;}i:1;s:9:\"afterSave\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:31;i:1;s:9:\"afterSave\";}i:1;N;}}s:12:\"beforeDelete\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:31;i:1;s:12:\"beforeDelete\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:1:{s:8:\"taggable\";r:31;}s:12:\"\0*\0_quantity\";s:2:\"10\";}}'
+    'useAddressCheckOut' => '6'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WhmQXX8AAQEAACR3bz4AAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WhmQXX8AAQEAACR3bz4AAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/49.0.2623.108 Chrome/49.0.2623.108 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/mycore/ols/checkout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'mobile=cf95d3b0e5083d724e023735f834d69453281ef7e795aa4ba5bf778c910777eaa%3A2%3A%7Bi%3A0%3Bs%3A6%3A%22mobile%22%3Bi%3A1%3Bs%3A4%3A%22FULL%22%3B%7D; _ga=GA1.1.496260585.1508645879; _csrf=575416e6e9da48af5b2cdd80a5244324dea39e55ef3c0a206d5dc1e44044a964a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Qapw66vruaRd1ZSSUAT1s-czsJpGvOSF%22%3B%7D; PHPSESSID=dmujvse7hgg9dl6lqgehu2c3d5'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2j PHP/5.6.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/mycore/index.php'
+    'REMOTE_PORT' => '46394'
+    'REDIRECT_URL' => '/mycore/ols/checkout/method-payment'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/mycore/ols/checkout/method-payment'
+    'SCRIPT_NAME' => '/mycore/index.php'
+    'PHP_SELF' => '/mycore/index.php'
+    'REQUEST_TIME_FLOAT' => 1511624797.753
+    'REQUEST_TIME' => 1511624797
+]
+2017-11-25 18:16:49 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php:660
+Stack trace:
+#0 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(660): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(586): yii\db\Connection->createPdoInstance()
+#2 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(943): yii\db\Connection->open()
+#3 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(930): yii\db\Connection->getMasterPdo()
+#4 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(243): yii\db\Connection->getSlavePdo()
+#5 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(1062): yii\db\Command->prepare('<span class="ke...')
+#6 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#8 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/mysql/Schema.php(111): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Schema.php(662): yii\db\mysql\Schema->loadTableSchema('<span class="st...')
+#10 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Schema.php(173): yii\db\Schema->getTableMetadata('<span class="st...', '<span class="st...', '<span class="ke...')
+#11 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/ActiveRecord.php(346): yii\db\Schema->getTableSchema('<span class="st...')
+#12 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/ActiveRecord.php(380): yii\db\ActiveRecord::getTableSchema()
+#13 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/BaseActiveRecord.php(474): yii\db\ActiveRecord->attributes()
+#14 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/BaseActiveRecord.php(281): yii\db\BaseActiveRecord->hasAttribute('<span class="st...')
+#15 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('<span class="st...')
+#16 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/behaviors/SluggableBehavior.php(154): yii\helpers\BaseArrayHelper::getValue(Object(jobsrey\ols\models\ProdukSearch), '<span class="st...')
+#17 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/behaviors/AttributeBehavior.php(121): yii\behaviors\SluggableBehavior->getValue(Object(yii\base\ModelEvent))
+#18 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#19 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Component.php(557): call_user_func('[<span class="t...', Object(yii\base\ModelEvent))
+#20 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Model.php(378): yii\base\Component->trigger('<span class="st...', Object(yii\base\ModelEvent))
+#21 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Model.php(345): yii\base\Model->beforeValidate()
+#22 /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/models/ProdukSearch.php(55): yii\base\Model->validate()
+#23 /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/controllers/ProdukController.php(21): jobsrey\ols\models\ProdukSearch->search('[]')
+#24 [internal function]: jobsrey\ols\controllers\ProdukController->actionIndex()
+#25 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#26 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#27 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#28 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#29 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 /opt/lampp/htdocs/mycore/index.php(12): yii\base\Application->run()
+#31 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] Connection refused' in /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php:597
+Stack trace:
+#0 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(943): yii\db\Connection->open()
+#1 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(930): yii\db\Connection->getMasterPdo()
+#2 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(243): yii\db\Connection->getSlavePdo()
+#3 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(1062): yii\db\Command->prepare('<span class="ke...')
+#4 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#6 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/mysql/Schema.php(111): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Schema.php(662): yii\db\mysql\Schema->loadTableSchema('<span class="st...')
+#8 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Schema.php(173): yii\db\Schema->getTableMetadata('<span class="st...', '<span class="st...', '<span class="ke...')
+#9 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/ActiveRecord.php(346): yii\db\Schema->getTableSchema('<span class="st...')
+#10 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/ActiveRecord.php(380): yii\db\ActiveRecord::getTableSchema()
+#11 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/BaseActiveRecord.php(474): yii\db\ActiveRecord->attributes()
+#12 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/BaseActiveRecord.php(281): yii\db\BaseActiveRecord->hasAttribute('<span class="st...')
+#13 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('<span class="st...')
+#14 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/behaviors/SluggableBehavior.php(154): yii\helpers\BaseArrayHelper::getValue(Object(jobsrey\ols\models\ProdukSearch), '<span class="st...')
+#15 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/behaviors/AttributeBehavior.php(121): yii\behaviors\SluggableBehavior->getValue(Object(yii\base\ModelEvent))
+#16 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#17 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Component.php(557): call_user_func('[<span class="t...', Object(yii\base\ModelEvent))
+#18 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Model.php(378): yii\base\Component->trigger('<span class="st...', Object(yii\base\ModelEvent))
+#19 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Model.php(345): yii\base\Model->beforeValidate()
+#20 /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/models/ProdukSearch.php(55): yii\base\Model->validate()
+#21 /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/controllers/ProdukController.php(21): jobsrey\ols\models\ProdukSearch->search('[]')
+#22 [internal function]: jobsrey\ols\controllers\ProdukController->actionIndex()
+#23 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#24 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#25 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#26 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#27 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /opt/lampp/htdocs/mycore/index.php(12): yii\base\Application->run()
+#29 {main}
+Additional Information:
+
+2017-11-25 18:16:48 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'Whmlf38AAQEAABGIYO0AAAAA'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'Whmlf38AAQEAABGIYO0AAAAA'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2j PHP/5.6.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/mycore/index.php'
+    'REMOTE_PORT' => '60732'
+    'REDIRECT_URL' => '/mycore/ols/produk'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/mycore/ols/produk'
+    'SCRIPT_NAME' => '/mycore/index.php'
+    'PHP_SELF' => '/mycore/index.php'
+    'REQUEST_TIME_FLOAT' => 1511630207.807
+    'REQUEST_TIME' => 1511630207
+]
+2017-11-25 18:16:53 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection refused' in /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php:660
+Stack trace:
+#0 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(660): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(586): yii\db\Connection->createPdoInstance()
+#2 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(943): yii\db\Connection->open()
+#3 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(930): yii\db\Connection->getMasterPdo()
+#4 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(243): yii\db\Connection->getSlavePdo()
+#5 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(1062): yii\db\Command->prepare('<span class="ke...')
+#6 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#8 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/mysql/Schema.php(111): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Schema.php(662): yii\db\mysql\Schema->loadTableSchema('<span class="st...')
+#10 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Schema.php(173): yii\db\Schema->getTableMetadata('<span class="st...', '<span class="st...', '<span class="ke...')
+#11 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/ActiveRecord.php(346): yii\db\Schema->getTableSchema('<span class="st...')
+#12 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/ActiveRecord.php(380): yii\db\ActiveRecord::getTableSchema()
+#13 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/BaseActiveRecord.php(474): yii\db\ActiveRecord->attributes()
+#14 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/BaseActiveRecord.php(281): yii\db\BaseActiveRecord->hasAttribute('<span class="st...')
+#15 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('<span class="st...')
+#16 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/behaviors/SluggableBehavior.php(154): yii\helpers\BaseArrayHelper::getValue(Object(jobsrey\ols\models\ProdukSearch), '<span class="st...')
+#17 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/behaviors/AttributeBehavior.php(121): yii\behaviors\SluggableBehavior->getValue(Object(yii\base\ModelEvent))
+#18 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#19 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Component.php(557): call_user_func('[<span class="t...', Object(yii\base\ModelEvent))
+#20 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Model.php(378): yii\base\Component->trigger('<span class="st...', Object(yii\base\ModelEvent))
+#21 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Model.php(345): yii\base\Model->beforeValidate()
+#22 /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/models/ProdukSearch.php(55): yii\base\Model->validate()
+#23 /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/controllers/ProdukController.php(21): jobsrey\ols\models\ProdukSearch->search('[]')
+#24 [internal function]: jobsrey\ols\controllers\ProdukController->actionIndex()
+#25 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#26 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#27 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#28 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#29 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 /opt/lampp/htdocs/mycore/index.php(12): yii\base\Application->run()
+#31 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] Connection refused' in /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php:597
+Stack trace:
+#0 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(943): yii\db\Connection->open()
+#1 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Connection.php(930): yii\db\Connection->getMasterPdo()
+#2 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(243): yii\db\Connection->getSlavePdo()
+#3 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(1062): yii\db\Command->prepare('<span class="ke...')
+#4 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Command.php(386): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/mysql/Schema.php(320): yii\db\Command->queryAll()
+#6 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/mysql/Schema.php(111): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Schema.php(662): yii\db\mysql\Schema->loadTableSchema('<span class="st...')
+#8 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/Schema.php(173): yii\db\Schema->getTableMetadata('<span class="st...', '<span class="st...', '<span class="ke...')
+#9 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/ActiveRecord.php(346): yii\db\Schema->getTableSchema('<span class="st...')
+#10 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/ActiveRecord.php(380): yii\db\ActiveRecord::getTableSchema()
+#11 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/BaseActiveRecord.php(474): yii\db\ActiveRecord->attributes()
+#12 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/db/BaseActiveRecord.php(281): yii\db\BaseActiveRecord->hasAttribute('<span class="st...')
+#13 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php(209): yii\db\BaseActiveRecord->__get('<span class="st...')
+#14 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/behaviors/SluggableBehavior.php(154): yii\helpers\BaseArrayHelper::getValue(Object(jobsrey\ols\models\ProdukSearch), '<span class="st...')
+#15 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/behaviors/AttributeBehavior.php(121): yii\behaviors\SluggableBehavior->getValue(Object(yii\base\ModelEvent))
+#16 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#17 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Component.php(557): call_user_func('[<span class="t...', Object(yii\base\ModelEvent))
+#18 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Model.php(378): yii\base\Component->trigger('<span class="st...', Object(yii\base\ModelEvent))
+#19 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Model.php(345): yii\base\Model->beforeValidate()
+#20 /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/models/ProdukSearch.php(55): yii\base\Model->validate()
+#21 /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/controllers/ProdukController.php(21): jobsrey\ols\models\ProdukSearch->search('[]')
+#22 [internal function]: jobsrey\ols\controllers\ProdukController->actionIndex()
+#23 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#24 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#25 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#26 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#27 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /opt/lampp/htdocs/mycore/index.php(12): yii\base\Application->run()
+#29 {main}
+Additional Information:
+
+2017-11-25 18:16:53 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WhmlhX8AAQEAABGJu4QAAAAB'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WhmlhX8AAQEAABGJu4QAAAAB'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2j PHP/5.6.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/mycore/index.php'
+    'REMOTE_PORT' => '60734'
+    'REDIRECT_URL' => '/mycore/ols/produk'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/mycore/ols/produk'
+    'SCRIPT_NAME' => '/mycore/index.php'
+    'PHP_SELF' => '/mycore/index.php'
+    'REQUEST_TIME_FLOAT' => 1511630213.293
+    'REQUEST_TIME' => 1511630213
+]
+2017-11-26 12:57:16 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: ols/produk/review' in /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('review', Array)
+#1 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('ols/produk/revi...', Array)
+#2 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /opt/lampp/htdocs/mycore/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /opt/lampp/htdocs/mycore/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-11-26 12:57:16 [::1][-][-][info][application] $_GET = [
+    'id' => 'e4da3b7fbbce2345d7772b0674a318d5'
+]
+
+$_COOKIE = [
+    'mobile' => 'cf95d3b0e5083d724e023735f834d69453281ef7e795aa4ba5bf778c910777eaa:2:{i:0;s:6:\"mobile\";i:1;s:4:\"FULL\";}'
+    '_ga' => 'GA1.1.496260585.1508645879'
+    '_csrf' => 'b9b56f1a64549e64033cde0402422f9e9bfcad30445d4fe8908b4e7d20ab8e58a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Tm_jXzEEY1_vNfLfma_IV55qABpwTFWk\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WhqsHH8AAQEAAC2FYT4AAAAK'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WhqsHH8AAQEAAC2FYT4AAAAK'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/49.0.2623.108 Chrome/49.0.2623.108 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/mycore/ols/produk/view/lantar-tarihoran'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'mobile=cf95d3b0e5083d724e023735f834d69453281ef7e795aa4ba5bf778c910777eaa%3A2%3A%7Bi%3A0%3Bs%3A6%3A%22mobile%22%3Bi%3A1%3Bs%3A4%3A%22FULL%22%3B%7D; _ga=GA1.1.496260585.1508645879; _csrf=b9b56f1a64549e64033cde0402422f9e9bfcad30445d4fe8908b4e7d20ab8e58a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Tm_jXzEEY1_vNfLfma_IV55qABpwTFWk%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2j PHP/5.6.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/mycore/index.php'
+    'REMOTE_PORT' => '44128'
+    'REDIRECT_URL' => '/mycore/ols/produk/review'
+    'REDIRECT_QUERY_STRING' => 'id=e4da3b7fbbce2345d7772b0674a318d5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=e4da3b7fbbce2345d7772b0674a318d5'
+    'REQUEST_URI' => '/mycore/ols/produk/review?id=e4da3b7fbbce2345d7772b0674a318d5'
+    'SCRIPT_NAME' => '/mycore/index.php'
+    'PHP_SELF' => '/mycore/index.php'
+    'REQUEST_TIME_FLOAT' => 1511697436.676
+    'REQUEST_TIME' => 1511697436
+]
+2017-11-26 14:53:34 [::1][-][st9jdujfj0ksu584n0vgaod5v2][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class yii\web\View could not be converted to string' in /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/views/checkout/index.php:137
+Stack trace:
+#0 /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/views/checkout/index.php(137): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/opt/lampp/htdo...', 137, Array)
+#1 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/View.php(332): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/opt/lampp/htdo...', Array)
+#3 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/View.php(152): yii\base\View->renderFile('/opt/lampp/htdo...', Array, Object(jobsrey\ols\controllers\CheckoutController))
+#4 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(jobsrey\ols\controllers\CheckoutController))
+#5 /opt/lampp/htdocs/mycore/_protected/modules/yii2-ols/controllers/CheckoutController.php(36): yii\base\Controller->render('index', Array)
+#6 [internal function]: jobsrey\ols\controllers\CheckoutController->actionIndex()
+#7 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#10 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('ols/checkout', Array)
+#11 /opt/lampp/htdocs/mycore/_protected/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /opt/lampp/htdocs/mycore/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-11-26 14:53:34 [::1][-][st9jdujfj0ksu584n0vgaod5v2][info][application] $_COOKIE = [
+    'mobile' => 'cf95d3b0e5083d724e023735f834d69453281ef7e795aa4ba5bf778c910777eaa:2:{i:0;s:6:\"mobile\";i:1;s:4:\"FULL\";}'
+    '_ga' => 'GA1.1.496260585.1508645879'
+    '_csrf' => 'b9b56f1a64549e64033cde0402422f9e9bfcad30445d4fe8908b4e7d20ab8e58a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Tm_jXzEEY1_vNfLfma_IV55qABpwTFWk\";}'
+    'PHPSESSID' => 'st9jdujfj0ksu584n0vgaod5v2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'lrtikfy'
+    '__captcha/site/captchacount' => 1
+    'useAddressCheckOut' => '6'
+    'yz\\shoppingcart\\ShoppingCart' => 'a:1:{i:2;O:29:\"jobsrey\\ols\\models\\ProdukCart\":11:{s:9:\"tagValues\";N;s:7:\"picture\";N;s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:8:{s:2:\"id\";i:2;s:4:\"name\";s:13:\"Ika Wulandari\";s:5:\"price\";s:7:\"5993.00\";s:3:\"qty\";i:1;s:11:\"description\";s:46:\"Jln. Yogyakarta No. 919, Cimahi 50216, SulTeng\";s:6:\"is_new\";i:1;s:11:\"post_status\";i:1;s:4:\"slug\";s:13:\"ika-wulandari\";}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";a:8:{s:2:\"id\";i:2;s:4:\"name\";s:13:\"Ika Wulandari\";s:5:\"price\";s:7:\"5993.00\";s:3:\"qty\";i:1;s:11:\"description\";s:46:\"Jln. Yogyakarta No. 919, Cimahi 50216, SulTeng\";s:6:\"is_new\";i:1;s:11:\"post_status\";i:1;s:4:\"slug\";s:13:\"ika-wulandari\";}s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:3:{s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;O:35:\"creocoder\\taggable\\TaggableBehavior\":6:{s:16:\"tagValuesAsArray\";b:0;s:11:\"tagRelation\";s:4:\"tags\";s:17:\"tagValueAttribute\";s:4:\"name\";s:21:\"tagFrequencyAttribute\";s:9:\"frequency\";s:47:\"\0creocoder\\taggable\\TaggableBehavior\0_tagValues\";N;s:5:\"owner\";r:2;}i:1;s:9:\"afterSave\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:31;i:1;s:9:\"afterSave\";}i:1;N;}}s:12:\"beforeDelete\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:31;i:1;s:12:\"beforeDelete\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:1:{s:8:\"taggable\";r:31;}s:12:\"\0*\0_quantity\";s:1:\"1\";}}'
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'WhrHXX8AAQEAADQtyZAAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'WhrHXX8AAQEAADQtyZAAAAAH'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/49.0.2623.108 Chrome/49.0.2623.108 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'mobile=cf95d3b0e5083d724e023735f834d69453281ef7e795aa4ba5bf778c910777eaa%3A2%3A%7Bi%3A0%3Bs%3A6%3A%22mobile%22%3Bi%3A1%3Bs%3A4%3A%22FULL%22%3B%7D; _ga=GA1.1.496260585.1508645879; _csrf=b9b56f1a64549e64033cde0402422f9e9bfcad30445d4fe8908b4e7d20ab8e58a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Tm_jXzEEY1_vNfLfma_IV55qABpwTFWk%22%3B%7D; PHPSESSID=st9jdujfj0ksu584n0vgaod5v2'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
+    'LD_LIBRARY_PATH' => '/opt/lampp/lib:/opt/lampp/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Unix) OpenSSL/1.0.2j PHP/5.6.28 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/opt/lampp/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/opt/lampp/htdocs/mycore/index.php'
+    'REMOTE_PORT' => '46954'
+    'REDIRECT_URL' => '/mycore/ols/checkout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/mycore/ols/checkout'
+    'SCRIPT_NAME' => '/mycore/index.php'
+    'PHP_SELF' => '/mycore/index.php'
+    'REQUEST_TIME_FLOAT' => 1511704413.932
+    'REQUEST_TIME' => 1511704413
+]
